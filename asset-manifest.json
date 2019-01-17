@@ -1,9 +1,9 @@
 {
   "main.css": "/react-js-dashboard-example/static/css/main.a50f9e18.chunk.css",
-  "main.js": "/react-js-dashboard-example/static/js/main.16d37a92.chunk.js",
-  "main.js.map": "/react-js-dashboard-example/static/js/main.16d37a92.chunk.js.map",
-  "static/js/1.4f95772f.chunk.js": "/react-js-dashboard-example/static/js/1.4f95772f.chunk.js",
-  "static/js/1.4f95772f.chunk.js.map": "/react-js-dashboard-example/static/js/1.4f95772f.chunk.js.map",
+  "main.js": "/react-js-dashboard-example/static/js/main.1269d302.chunk.js",
+  "main.js.map": "/react-js-dashboard-example/static/js/main.1269d302.chunk.js.map",
+  "static/js/1.df6a7c3f.chunk.js": "/react-js-dashboard-example/static/js/1.df6a7c3f.chunk.js",
+  "static/js/1.df6a7c3f.chunk.js.map": "/react-js-dashboard-example/static/js/1.df6a7c3f.chunk.js.map",
   "runtime~main.js": "/react-js-dashboard-example/static/js/runtime~main.aad2501c.js",
   "runtime~main.js.map": "/react-js-dashboard-example/static/js/runtime~main.aad2501c.js.map",
   "static/media/anime3.png": "/react-js-dashboard-example/static/media/anime3.bd6820f1.png",
@@ -11,6 +11,6 @@
   "static/media/nucleo-icons.css": "/react-js-dashboard-example/static/media/nucleo.b17a118e.ttf",
   "static/css/main.a50f9e18.chunk.css.map": "/react-js-dashboard-example/static/css/main.a50f9e18.chunk.css.map",
   "index.html": "/react-js-dashboard-example/index.html",
-  "precache-manifest.a07a150bf99995e157c7af269d6d39f6.js": "/react-js-dashboard-example/precache-manifest.a07a150bf99995e157c7af269d6d39f6.js",
+  "precache-manifest.2dab248b020a14d47917787f37725a41.js": "/react-js-dashboard-example/precache-manifest.2dab248b020a14d47917787f37725a41.js",
   "service-worker.js": "/react-js-dashboard-example/service-worker.js"
 }

@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "16d37a92511b7bab459a",
+    "revision": "1269d302647e8cf74c0d",
     "url": "/react-js-dashboard-example/static/css/main.a50f9e18.chunk.css"
   },
   {
-    "revision": "16d37a92511b7bab459a",
-    "url": "/react-js-dashboard-example/static/js/main.16d37a92.chunk.js"
+    "revision": "1269d302647e8cf74c0d",
+    "url": "/react-js-dashboard-example/static/js/main.1269d302.chunk.js"
   },
   {
-    "revision": "4f95772ff8a79abc0528",
-    "url": "/react-js-dashboard-example/static/js/1.4f95772f.chunk.js"
+    "revision": "df6a7c3f1b126b1d32db",
+    "url": "/react-js-dashboard-example/static/js/1.df6a7c3f.chunk.js"
   },
   {
     "revision": "aad2501c000092153f25",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/react-js-dashboard-example/static/media/emilyz.9fcf69e5.jpg"
   },
   {
-    "revision": "f0b489a5dbbff08833d21024f9fcbd4e",
-    "url": "/react-js-dashboard-example/static/media/nucleo.f0b489a5.woff"
-  },
-  {
     "revision": "5987dd12fea78ce5f97ae601b08ec03c",
     "url": "/react-js-dashboard-example/static/media/nucleo.5987dd12.woff2"
+  },
+  {
+    "revision": "f0b489a5dbbff08833d21024f9fcbd4e",
+    "url": "/react-js-dashboard-example/static/media/nucleo.f0b489a5.woff"
   },
   {
     "revision": "03ef1918e505c3e3471f9369ef7a638f",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/react-js-dashboard-example/static/media/nucleo.b17a118e.ttf"
   },
   {
-    "revision": "5d19ad8e95d829d381a4ed512080d7b3",
+    "revision": "56882202ed8d2673cd87e6707c579812",
     "url": "/react-js-dashboard-example/index.html"
   }
 ];

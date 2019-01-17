@@ -14,17 +14,9 @@ import {
   CardHeader,
   CardBody,
   CardTitle,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
-  Label,
-  FormGroup,
-  Input,
   Table,
   Row,
   Col,
-  UncontrolledTooltip
 } from "reactstrap";
 
 // core components
@@ -34,6 +26,9 @@ import {
   chartExample3,
   chartExample4
 } from "variables/charts.jsx";
+
+
+import TaskList from "../components/TaskList/TaskList";
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -149,68 +144,18 @@ class Dashboard extends React.Component {
           </Row>
           <Row>
             <Col lg="6" md="12">
+
               <Card className="card">
                 <CardHeader>
                   <h6 className="title d-inline">Configuration Work</h6>
                 </CardHeader>
                 <CardBody>
-                  <div className="table-full-width table-responsive">
-                    <Table>
-                      <tbody>
-                        <tr>
-                          <td>
-                            <FormGroup check>
-                              <Label check>
-                                <Input defaultValue="" type="checkbox" />
-                                <span className="form-check-sign">
-                                  <span className="check" />
-                                </span>
-                              </Label>
-                            </FormGroup>
-                          </td>
-                          <td>
-                            <p className="title">Create A Collector</p>
-                            <p className="text-muted">
-                              You need to create a collector before you can start collecting data
-                            </p>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </Table>
-                  </div>
+                  <TaskList />
                 </CardBody>
               </Card>
             </Col>
             <Col lg="6" md="12">
-              <Card>
-                <CardHeader>
-                  <CardTitle tag="h4">Recent Objects</CardTitle>
-                </CardHeader>
-                <CardBody>
-                  <Table className="tablesorter" responsive>
-                    <thead className="text-primary">
-                      <tr>
-                        <th>Collector</th>
-                        <th>Object Type</th>
-                        <th className="text-center">Size</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>
-                          <NavLink to="collector/collector1"
-                                     className="nav-link"
-                                     activeClassName="active">
-                            COLLECTOR1
-                          </NavLink>
-                        </td>
-                        <td>Web Event (JSON)</td>
-                        <td className="text-center">135 KB</td>
-                      </tr>
-                    </tbody>
-                  </Table>
-                </CardBody>
-              </Card>
+
             </Col>
           </Row>
         </div>

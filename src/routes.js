@@ -1,5 +1,6 @@
 import Dashboard from "views/Dashboard.jsx";
-import TableList from "views/TableList.jsx";
+import Data from "views/Data.jsx";
+import Collectors from "views/Collectors.jsx";
 import UserProfile from "views/UserProfile.jsx";
 import Typography from "views/Typography";
 
@@ -17,7 +18,7 @@ var routes = [
     name: "Collectors",
     rtlName: "الرموز",
     icon: "tim-icons icon-atom",
-    component: TableList,
+    component: Collectors,
     layout: "/admin"
   },
   {
@@ -25,7 +26,7 @@ var routes = [
     name: "Data",
     rtlName: "خرائط",
     icon: "tim-icons icon-puzzle-10",
-    component: TableList,
+    component: Data,
     layout: "/admin"
   },
   {
